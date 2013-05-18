@@ -1,4 +1,4 @@
-nav-accessibility
-=================
+Nav Accessibility
+================================
 
-A quick mockup of list items for navs vs flat anchor tags for navs
+Recently, there has been a lot of talk about whether or not navigation should be marked up using lists or as a flat list of anchor tags. Provided are two different examples, one for each. Both sets of markup are semantically correct, have been tested in VoiceOver for OS X, and both have identical VoiceOver signatures as presented. Interstingly enough, if `list-style: none` isn't added for the list based nav, VoiceOver will speak all of the bullets as "Bullet", which IMO is much worse than the CSS-less flat list (meaning CSS is required to make lists as easy to understand/navigate as flat lists of anchor tags). Both tell the user how many items there are and both inform users of submenus and how many items are in there. Neither does a good job of informing a user of submenus before you get to them, but that's an issue for both so IMO it's a wash. I have not been able to test in other VoiceOver systems, so I would appreicate feedback on them.
